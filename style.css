@@ -1,0 +1,144 @@
+.container1{
+    width: 100%;
+    max-width: 1300px;
+    margin: auto;
+}
+.container2{
+    width: 100%;
+    max-width: 1050px;
+    margin: auto;
+}
+.container{
+    width: 100%;
+    max-width: 1280px;
+    margin: auto;
+}
+.header{
+    position: fixed;
+    width: 100%;
+}
+.flex{
+    display: flex;
+}
+.list-style{ 
+    list-style: none;
+    float: right;
+}
+.color{
+    color: black;
+    text-decoration: none;
+}
+.pad:hover{
+    text-decoration: underline;
+}
+.pad{
+    margin: 0px 30px;
+}
+.anchor{
+    text-decoration: none;
+    color: black;
+    font-size: 20px;
+    padding: 5px;
+}
+.anchor:hover{
+    background-color: rgb(206, 202, 202);
+    
+}
+.div1 {
+    max-width: 100%;
+    height: auto;
+    margin-top: 20px;
+    max-width: 100%;
+}
+.di{
+    padding-left: 15px;
+}
+.color{
+    background-color: white;
+}
+.p{
+    padding-top: 550px;
+    font-size: 30px;
+    padding-left: 10px;
+    letter-spacing: 5px;
+}
+.nav{
+    margin-top: -30px;
+    padding: 20px;
+}
+.div2{
+    margin-top: 50px;
+}
+.div3{
+    margin-top: 50px;
+}
+.center{
+    text-align: center;
+}
+.padd{
+    padding-left: 60px;
+    font-size: 20px;
+}
+.font{
+    font-size: 20px;
+}
+.font1{
+    font-size:40px;
+}
+.mar{
+    margin-top: 50px;
+}
+.div5{
+    padding-left: 100px;
+}
+.h31{
+    margin-top: 40px;
+}
+.margin{
+    margin-top: 100px;
+}
+.blue{
+    color: rgb(41, 41, 115);
+    font-size: 18px;
+}
+.input1{
+    padding-top: 16px!important;
+    padding-bottom: 16px!important;
+    padding-left: 8px;
+    padding-right: 800px;
+    border: none;
+    border-bottom: 1px solid grey;
+}
+.input2{
+    padding-top: 16px!important;
+    padding-bottom: 16px!important;
+    padding-left: 8px;
+    padding-right: 750px;
+    border: none;
+    border-bottom: 1px solid grey;
+}
+.btn{
+    margin-top: 10px;
+}
+@media(min-width:100px) and (max-width:996px) {
+    #menu{
+        display:inline-block;
+    
+    }
+    @media(min-width:100px) and (max-width:866px) {
+        #about{
+            display:inline-block;
+        
+        }
+        /* @media(min-width:200px) and (max-width:700px) {
+            .div1{
+                width: 700px;
+                height: 300px;
+                background-image: cover;
+            
+            } */
+            @media(min-width:200px) and (max-width:996px) {
+                .div5{
+                    padding-left: 0px;
+                
+                }
